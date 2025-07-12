@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="2" name="TestRunner1">
+    <classes>
+      <class name="june_08_TestNG_DataProvider.DataProviderUsingExcel"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="2" name="TestRunner2">
+    <classes>
+      <class name="june_08_TestNG_DataProvider.DataProviderUsingExcel1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
